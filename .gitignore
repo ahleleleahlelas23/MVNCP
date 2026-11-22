@@ -1,0 +1,17 @@
+# Build output
+bin/
+
+# Local configuration with passwords
+mvncp-server.ini
+mvncp-viewer.ini
+
+# Logs and test artifacts
+*.log
+frame.png
+test.png
+
+# IDE / OS noise
+.vs/
+*.user
+Thumbs.db
+desktop.ini

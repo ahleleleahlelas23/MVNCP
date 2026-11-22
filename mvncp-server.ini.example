@@ -1,0 +1,16 @@
+# MVNCP server configuration
+# The build script copies this file to bin\mvncp-server.ini on the first build.
+# Change the password before using the server on a real network.
+
+# TCP port (default VNC port is 5900)
+port=5900
+
+# Password. VNC authentication uses only the first 8 characters.
+# Leave empty to disable authentication (debugging only!).
+password=changeme
+
+# Name shown by the viewer
+name=mvncp
+
+# 0.0.0.0 = all interfaces, or a specific LAN IP address
+bind=0.0.0.0
